@@ -25,7 +25,7 @@
       "category": "Предметы"
     },
     {
-      "image": "dice.jpg",
+      "image": "dice.png",
       "name": "Dice",
       "price": 5300.1245512,
       "article": "T4",
@@ -33,7 +33,7 @@
       "category": "Предметы"
     },
     {
-      "image": "memory.jpg",
+      "image": "memory.png",
       "name": "Memory",
       "price": 6500.3522314,
       "article": "T5",
