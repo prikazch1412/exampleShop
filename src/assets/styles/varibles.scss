@@ -5,3 +5,43 @@ $green-bg: #26ae68;
 $green-bg-hover: #31c375;
 
 $radius: 4px;
+.main-wrapper {
+    min-height: calc(100vh - 170px);
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    min-height: 100vh;
+}
+  .header{
+    top: 0;
+    left: 0;
+    background: #D8E3AB;
+    height: 70px;
+    width: 100%;
+    z-index: 10
+}
+.catalog{
+    margin: 20px;
+    &__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 2vw;
+    
+}
+}
+.cart{
+    margin: 20px;
+}
+.footer {
+   padding: 40px 0;
+   background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}

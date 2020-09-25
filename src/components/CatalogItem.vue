@@ -3,7 +3,7 @@
         <img :src=" require('../assets/images/' + product_data.image)" alt="img">
         <p class="catalog-item__name">Назва: {{product_data.name}}</p>
         <p class="catalog-item__price">Ціна: {{product_data.price}}</p>
-        <button @click="sendDataToParent">додати в корзину</button>
+        <button @click="addToCart">додати в корзину</button>
 
     </div>
 </template>
@@ -24,8 +24,8 @@ export default {
         }
     },
     methods:{
-        sendDataToParent(){
-           this.$emit('sendDataArticle', this.product_data.article)  
+        addToCart(){
+           this.$emit('addToCart', this.product_data)  
         }
     }
 }
