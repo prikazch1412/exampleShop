@@ -37,6 +37,7 @@ export default {
     methods:{
         addToCart(data){
             this.ADD_TO_CART(data);
+           // alert("Товар "+ data.name + " додано");
         },
         ...mapActions([
             'GET_PRODUCTS_FROM_API',

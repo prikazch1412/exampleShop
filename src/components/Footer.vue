@@ -1,5 +1,7 @@
 <template>
-    <footer class="footer"></footer>    
+    <footer class="footer">
+        Пробний каталог, створений за відео-уроками
+        </footer>    
 </template>
 <script>
 export default {

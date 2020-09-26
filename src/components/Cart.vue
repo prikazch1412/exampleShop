@@ -1,10 +1,10 @@
 <template>
     <div class="cart">
-        <router-link :to="'/'">
+        <router-link :to="'/catalog'">
             <div class="link_to_cart">назад</div>
         </router-link>
         <div class="link_to_cart">Зараз в корзині: {{CART.length}}</div>
-        <h1>Cart</h1>
+        <h1>Корзина</h1>
             <cart-item 
             v-for="(item, index) in cart_data" 
             :key="item.article"
