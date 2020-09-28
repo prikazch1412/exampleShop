@@ -7,7 +7,7 @@
         <h1>Корзина</h1>
             <cart-item 
             v-for="(item, index) in cart_data" 
-            :key="item.article"
+            :key="index"
             :cart_item_data="item"
             @deleteFromCart="deleteFromCart(index)"
             />    

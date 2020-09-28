@@ -32,14 +32,5 @@ export default {
 </script>
 
 <style lang="scss">
-.catalog-item {
-    flex-basis: 25%;
-    box-shadow: 0 0 8px 0 #e0e0e0;
-    padding: $padding*2;
-    margin-bottom: $margin*2;
-    img{
-        width: 100px;
-        height: 100px; 
-    }
-  }
+
 </style>

@@ -1,6 +1,8 @@
 <template>
     <footer class="footer">
-        Пробний каталог, створений за відео-уроками
+        <div class="container">
+            Пробний каталог, створений за відео-уроками, студентом групи ІН.м-92 Приказчиком Андрієм
+        </div>
         </footer>    
 </template>
 <script>
@@ -13,5 +15,7 @@ export default {
 }
 </script>
 <style scoped>
-
+.container{
+    padding: 0 20px;
+}
 </style>

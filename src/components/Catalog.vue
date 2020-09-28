@@ -52,13 +52,4 @@ export default {
 
 <style lang="scss">
 
-.link_to_cart{
-        position: relative;
-        margin-top: 30px;
-        padding: 3px;
-        width: auto;
-        right: 10px;
-        border: solid 1px black;
-}
-
 </style>

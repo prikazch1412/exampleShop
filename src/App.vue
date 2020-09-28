@@ -19,5 +19,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+#app{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.main-wrapper{
+  flex: 1;
+}
 </style>

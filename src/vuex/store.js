@@ -14,7 +14,15 @@ let store = new Vuex.Store({
             state.products = products;
         },
         SET_CART: (state, product) => {
-            state.cart.push(product);
+            if(!state.cart.find(item => item.article == product.article)) {
+                
+            // }
+            // if(state.cart.indexOf(product)==-1){
+                state.cart.push(product);
+            }
+            else{
+                alert("Вже додано до корзини")
+            }
         },
         REMOVE_FROM_CART: (state, index) => {
             state.cart.splice(index, 1);
